@@ -1,48 +1,28 @@
-import { GoBell, GoCloudOffline, GoDatabase } from 'react-icons/go';
-import Button from './components/Button';
+import Accordion from './components/Accordion';
 
 function App() {
-  const handleClick = () => {
-    console.log('Click!');
-  };
-  return (
-    <div>
-      <div>
-        <Button
-          className="mb-2"
-          secondary
-          outline
-          rounded
-          onClick={handleClick}
-        >
-          <GoBell />
-          Click me!
-        </Button>
-      </div>
-      <div>
-        <Button danger outline>
-          <GoCloudOffline />
-          Buy Now!
-        </Button>
-      </div>
-      <div>
-        <Button warning>
-          <GoDatabase />
-          See Deal!
-        </Button>
-      </div>
-      <div>
-        <Button secondary outline>
-          Hide Ads!
-        </Button>
-      </div>
-      <div>
-        <Button primary rounded>
-          Something!
-        </Button>
-      </div>
-    </div>
-  );
+  const items = [
+    {
+      id: 'lf2s',
+      label: 'Can i Use React on a project?',
+      content:
+        'You can use React on any project you want. You can use React on any project you want. You can use React on any project you want. You can use React on any project you want. You can use React on any project you want. You can use React on any project you want.',
+    },
+    {
+      id: 'lf2sfqwe',
+      label: 'Can i Use JavaScript on a project?',
+      content:
+        'You can use React on any project you want. You can use React on any project you want. You can use React on any project you want. You can use React on any project you want. You can use React on any project you want. You can use React on any project you want.',
+    },
+    {
+      id: 'lf2sxfqs',
+      label: 'Can i Use CSS on a project?',
+      content:
+        'You can use React on any project you want. You can use React on any project you want. You can use React on any project you want. You can use React on any project you want. You can use React on any project you want. You can use React on any project you want.',
+    },
+  ];
+
+  return <Accordion items={items} />;
 }
 
 export default App;
