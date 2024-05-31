@@ -1,28 +1,34 @@
-import Accordion from './components/Accordion';
+import { useState } from 'react';
 
+import Dropdown from './components/Dropdown';
 function App() {
-  const items = [
+  const [selection, setSelection] = useState(null);
+
+  const options = [
     {
-      id: 'lf2s',
-      label: 'Can i Use React on a project?',
-      content:
-        'You can use React on any project you want. You can use React on any project you want. You can use React on any project you want. You can use React on any project you want. You can use React on any project you want. You can use React on any project you want.',
+      label: 'Red',
+      value: 'red',
     },
     {
-      id: 'lf2sfqwe',
-      label: 'Can i Use JavaScript on a project?',
-      content:
-        'You can use React on any project you want. You can use React on any project you want. You can use React on any project you want. You can use React on any project you want. You can use React on any project you want. You can use React on any project you want.',
+      label: 'Green',
+      value: 'green',
     },
     {
-      id: 'lf2sxfqs',
-      label: 'Can i Use CSS on a project?',
-      content:
-        'You can use React on any project you want. You can use React on any project you want. You can use React on any project you want. You can use React on any project you want. You can use React on any project you want. You can use React on any project you want.',
+      label: 'Blue',
+      value: 'blue',
     },
   ];
 
-  return <Accordion items={items} />;
+  const handleSelect = (option) => {
+    setSelection(option);
+  };
+
+  return (
+    <div className="flex">
+      <Dropdown options={options} value={selection} onChange={handleSelect} />
+      <Dropdown options={options} value={selection} onChange={handleSelect} />
+    </div>
+  );
 }
 
 export default App;
