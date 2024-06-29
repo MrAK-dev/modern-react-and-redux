@@ -13,6 +13,98 @@
       "name": "Mr. Ira Reichel"
     }
   ],
-  "albums": [],
-  "photos": []
+  "albums": [
+    {
+      "id": "a93f",
+      "userId": "1",
+      "title": "Recycled Steel Table"
+    },
+    {
+      "id": "9b4d",
+      "userId": "b294",
+      "title": "Modern Plastic Chair"
+    },
+    {
+      "id": "971c",
+      "userId": "4c25",
+      "title": "Practical Bronze Computer"
+    },
+    {
+      "id": "e614",
+      "userId": "b294",
+      "title": "Luxurious Fresh Cheese"
+    },
+    {
+      "id": "1e64",
+      "userId": "4c25",
+      "title": "Gorgeous Wooden Keyboard"
+    },
+    {
+      "id": "bc42",
+      "userId": "1",
+      "title": "Fantastic Soft Chips"
+    },
+    {
+      "id": "4a7f",
+      "userId": "1",
+      "title": "Rustic Bronze Cheese"
+    },
+    {
+      "id": "a8aa",
+      "userId": "b294",
+      "title": "Bespoke Wooden Shirt"
+    },
+    {
+      "id": "abb4",
+      "userId": "4c25",
+      "title": "Sleek Frozen Bike"
+    },
+    {
+      "id": "fe35",
+      "userId": "a93f",
+      "title": "Electronic Granite Keyboard"
+    },
+    {
+      "id": "dc11",
+      "userId": "a93f",
+      "title": "Small Metal Ball"
+    },
+    {
+      "id": "90d7",
+      "userId": "a93f",
+      "title": "Electronic Wooden Chips"
+    },
+    {
+      "id": "38a6",
+      "userId": "a93f",
+      "title": "Tasty Concrete Chicken"
+    },
+    {
+      "id": "9578",
+      "userId": "a93f",
+      "title": "Modern Bronze Chips"
+    },
+    {
+      "id": "5552",
+      "userId": "a93f",
+      "title": "Handcrafted Rubber Towels"
+    }
+  ],
+  "photos": [
+    {
+      "id": "0fe4",
+      "albumId": "a93f",
+      "url": "https://loremflickr.com/640/480/abstract?lock=5001566486528000"
+    },
+    {
+      "id": "b5a1",
+      "albumId": "a93f",
+      "url": "https://loremflickr.com/640/480/abstract?lock=756675434774528"
+    },
+    {
+      "id": "5db2",
+      "albumId": "a93f",
+      "url": "https://loremflickr.com/640/480/abstract?lock=1352000501448704"
+    }
+  ]
 }
